@@ -10,7 +10,7 @@ RUN pip install ipython
 
 WORKDIR /app
 
-RUN git clone https://github.com/wadobo/decide.git .
+RUN git clone https://github.com/ferruipli/EGC-1819-1030-ferruipli.git
 RUN pip install -r requirements.txt
 
 WORKDIR /app/decide
